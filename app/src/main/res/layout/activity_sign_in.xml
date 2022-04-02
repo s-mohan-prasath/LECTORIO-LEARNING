@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignInActivity"
+    style="@style/myLayout">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:background="@color/secondary_dark">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/activity_signInBtn"
+                android:layout_height="match_parent"
+                style="@style/activity_signInBtn_Clicked"
+                android:text="Sign in"
+                />
+
+            <Button
+                android:id="@+id/activity_loginInBtn"
+                style="@style/activity_signInBtn_notClicked"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="login"/>
+
+        </LinearLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingHorizontal="25dp">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_lectorio" />
+
+            <EditText
+                android:id="@+id/name_signIn"
+                style="@style/myEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/DOB_signIn"
+                style="@style/myEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Date of Birth"
+                android:inputType="date" />
+
+            <EditText
+                android:id="@+id/schoolORcollegeName_signIn"
+                style="@style/myEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="School/College Name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/gradeORdegreeName_signIn"
+                style="@style/myEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Grade/Degree Name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/email_signIn"
+                style="@style/myEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Email Address"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/mobileNumber_signIn"
+                style="@style/myEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Mobile Number"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/password_signIn"
+                style="@style/myEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Password"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/passwordConfirm_signIn"
+                style="@style/myEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Confirm Password"
+                android:inputType="textPassword" />
+
+            <CheckBox
+                android:id="@+id/checkBox_signIn"
+                style="@style/myCheckBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="20dp"
+                android:checked="true"
+                android:maxLines="50"
+                android:padding="10dp"
+                android:text="I Agree that above filled detaila are true on behalf of my knowledge"
+                android:textColor="@color/black" />
+
+            <ProgressBar
+                android:id="@+id/progressBar_signIn"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/signInBtn_signIn"
+                style="@style/myButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="20dp"
+                android:text="next" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

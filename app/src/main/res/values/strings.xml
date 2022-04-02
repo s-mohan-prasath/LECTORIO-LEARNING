@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lectorio Learning</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="what_is_lectorio">Lectorio is an E-learning Platform created by Deepak S. In Lectorio, Engineering Mathematics, Basic Mathematics are taught. Students who are all interested in Teaching will teach you Mathematics. In Lectorio, Both group as Personal Lectures will be taken.
+Ratings of 4.7/5 is given by the lecture attended students. Here, we\'ll take live lectures. You can clarify your doubt instantly.</string>
+    <string name="who_will_teach_you">Main motto of Lectorio is We students, help students! Your Mathematics concepts are going to be taught by Mathematics Students. You can ask your doubt to them.</string>
+    <string name="para3">14 students are working as a member in Lectorio including teaching, supervising, Analyzing and Editing team. They\'re all working together to help you. Our motto is to make you guys love Mathematics and to make you guys good at Mathematics so we\'re working for that!</string>
+</resources>

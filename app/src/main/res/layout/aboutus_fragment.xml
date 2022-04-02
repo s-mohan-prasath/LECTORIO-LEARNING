@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/myLayout">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="5dp">
+
+            <ImageView
+                android:layout_width="250sp"
+                android:layout_height="250sp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_lectorio_slogan" />
+
+            <TextView
+                style="@style/textHeadings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What is Lectorio?\n" />
+
+            <TextView
+                style="@style/textPara"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="@string/what_is_lectorio" />
+
+            <TextView
+                style="@style/textHeadings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nWho will teach you?\n" />
+
+            <TextView
+                style="@style/textPara"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/who_will_teach_you" />
+
+            <TextView
+                style="@style/textHeadings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nHow many students are working in Lectorio Team?\n" />
+
+            <TextView
+                style="@style/textPara"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/para3" />
+
+            <!--            Lectorio Boards and Board Member Name Lists:-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="\n\nLectorio Board\n &amp; \nBoard Member Name Lists\n\n"
+                android:textColor="@color/black"
+                android:textSize="27sp"
+                android:textStyle="bold" />
+
+            <TextView
+                style="@style/listTextHeadings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Founder\n" />
+
+            <TextView
+                style="@style/listTextPara"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Deepak S\n" />
+
+            <TextView
+                style="@style/listTextHeadings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Board of Supervising\n" />
+
+            <TextView
+                style="@style/listTextPara"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1) Ramyashree\n2) Sunmathi\n" />
+
+            <TextView
+                style="@style/listTextHeadings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Board of Analyzing\n" />
+
+            <TextView
+                style="@style/listTextPara"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="1) Sandhiya\n2) Dhanusha\n" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Board of Teaching\n"
+                style="@style/listTextHeadings"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1) Bavanesh\n
+2) Nandha Kishore\n
+3) Nikitha\n
+4) Yoga Devi\n
+5) Dhivya\n
+6) Prahaashini\n
+7) Kamali\n
+8) Uma\n
+9) Thenmozhi\n"
+                style="@style/listTextPara"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Board of Editing and Filming\n"
+                style="@style/listTextHeadings"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1) Joshika\n"
+                style="@style/listTextPara"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

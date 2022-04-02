@@ -1,0 +1,119 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Practice" parent="Theme.MaterialComponents.NoActionBar">
+        <!--        Primary brand color -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!--        Secondary brand color -->
+        <item name="colorSecondary">#1436EF</item>
+        <item name="colorSecondaryVariant">#0A1C83</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+        <!--   DEFAULT BUTTON STYLE      -->
+        <item name="materialButtonStyle">@style/myButton</item>
+
+    </style>
+
+    <!--    MY BUTTON STYLES         -->
+    <style name="myButton">
+
+        <item name="backgroundTint">#039703</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15sp</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:letterSpacing">.15</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="activity_signInBtn_notClicked">
+        <item name="android:backgroundTint">@color/secondary_dark</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">0dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">22sp</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:letterSpacing">.15</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+    <style name="activity_signInBtn_Clicked">
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="cornerRadius">0dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">22sp</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:letterSpacing">.15</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+    <!--   My LAYOUT STYLES   -->
+
+    <style name="myLayout">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="greenBackground">
+        <item name="android:background">@color/greenBac</item>
+    </style>
+
+    <!--   MY TEXTVIEW STYLES -->
+
+    <style name="textHeadings">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="textPara">
+        <item name="android:maxLines">100</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="lineHeight">22dp</item>
+    </style>
+
+    <style name="listTextPara">
+        <item name="android:maxLines">100</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="lineHeight">22dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="listTextHeadings">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">23sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <!--            EDIT VIEW SYTLING     -->
+    <style name="myEdit">
+        <item name="android:textColorHint">@color/secondary_text</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:background">@drawable/edit_item_style</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+<!--                CHECK BOX STYLING   -->
+
+    <style name="myCheckBox">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="background">@drawable/checkbox_selector</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="maxLines">50</item>
+    </style>
+
+
+</resources>

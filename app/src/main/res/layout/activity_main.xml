@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="75sp"
+        android:background="@color/primary"
+        android:id="@+id/action_bar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/ic_lectorio"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/ic_lectorio" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lectorio Learning"
+                android:inputType="textCapSentences"
+                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:layout_toRightOf="@+id/ic_lectorio"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"/>
+
+
+        </RelativeLayout>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomNavBar"
+        android:layout_below="@+id/action_bar">
+
+    </FrameLayout>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/primary"
+            app:itemIconTint="@drawable/bottom_nav_item_selector"
+            app:itemTextColor="@drawable/bottom_nav_item_selector"
+            app:menu="@menu/bottom_nav_bar"
+            android:layout_alignParentBottom="true"
+            />
+
+
+
+
+
+
+</RelativeLayout>
